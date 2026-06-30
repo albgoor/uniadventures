@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    min-height: 70vh;
+    background: linear-gradient(to right, #e8f5e9, #ffffff);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 25px;
+}
+.row.g-4 {
+    align-items: stretch;
+}
+
+.card {
+    height: 100%;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+body {
+    padding-top: 70px;
+}
